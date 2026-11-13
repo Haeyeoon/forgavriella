@@ -136,7 +136,7 @@ nav{display:flex;gap:clamp(16px,4vw,42px);font-size:11px;color:#c3cbbf}nav a:hov
 
 /* CUSTOM CURSOR */
 body {
-    cursor: url("cursor/1\ \(1\).png") 4 4, auto;
+    cursor: url("1\ \(1\).png") 4 4, auto;
 }
 
 a,
@@ -146,11 +146,11 @@ input,
 select,
 textarea,
 [role="button"] {
-    cursor: url("cursor/2\ \(1\).png") 4 4, pointer;
+    cursor: url("2\ \(1\).png") 4 4, pointer;
 }
 
 body:active {
-    cursor: url("cursor/2\ \(1\).png") 4 4, auto;
+    cursor: url("2\ \(1\).png") 4 4, auto;
 }
 
 /* CURSOR WHILE CLICKING */
@@ -158,7 +158,7 @@ html:active,
 html:active a,
 html:active button,
 html:active label {
-    cursor: url("cursor/2\ \(1\).png") 4 4, pointer;
+    cursor: url("2\ \(1\).png") 4 4, pointer;
 }
 
 
