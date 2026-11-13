@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101914">
+  <title>For Gavriella! ❛ ֊ ❛</title>
+  <link rel="icon" type="image/png" href="favicon/favicon1.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sparkle-trail"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="ornament ornament-one" aria-hidden="true">✦</div>
+  <div class="ornament ornament-two" aria-hidden="true">❧</div>
+
+  <main>
+    <section id="lockScreen" class="screen lock-screen">
+      <div class="lock-card">
+        <p class="eyebrow">HAPPY BIRTHDAY DEAR</p>
+        <div class="crest" aria-hidden="true">✧</div>
+        <p class="small-caps">NOVEMBER 13 2026</p>
+        <h1>For <em>Gavriella</em></h1>
+        <p class="intro">Something lovely is waiting for you~<br>behind this little midnight-green door.</p>
+        <div class="countdown" aria-label="Countdown to the birthday surprise">
+          <div><span id="hours">00</span><small>HOURS</small></div>
+          <b>:</b>
+          <div><span id="minutes">00</span><small>MINUTES</small></div>
+          <b>:</b>
+          <div><span id="seconds">00</span><small>SECONDS</small></div>
+        </div>
+        <p id="countdownMessage" class="countdown-message">The surprise opens at 9:00 PM · WIB</p>
+        <div class="seal" aria-hidden="true">G</div>
+        <p class="lock-foot">PLEASE RETURN WHEN THE CLOCK STRIKES NINE!</p>
+      </div>
+    </section>
+
+    <section id="birthdaySite" class="hidden">
+      <header class="topbar">
+        <a class="wordmark" href="#home">G <span>✧</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#letter">Your letter</a>
+        </nav>
+        <button id="musicButton" class="music-button" type="button" aria-pressed="false">♫ <span>Music off</span></button>
+      </header>
+
+      <section id="home" class="hero section-wrap">
+        <p class="eyebrow">A DAY THAT DESERVES TO BE REMEMBERED</p>
+        <div class="hero-star" aria-hidden="true">✧</div>
+        <h2>Happy Birthday,<br><em>Gavriella!</em></h2>
+        <p class="hero-copy">A little corner made specially just for you.<br>May this new chapter be gentle, bright, and wonderfully yours!</p>
+        <a class="outline-link" href="#gallery">WANDER A LITTLE <span>↓</span></a>
+        <div class="hero-bottom">13 · XI · MMXXVI <span>✦</span> WITH LOVE, ALWAYS</div>
+      </section>
+
+      <section id="gallery" class="gallery-section section-wrap">
+      <div class="section-heading">
+        <div class="gallery-tools">
+    <span id="imageCount" class="muted">Your gallery is waiting</span>
+</div>
+
+<div id="galleryGrid" class="gallery-grid">
+    <div class="empty-gallery">
+        <span>❧</span>
+        <p>Your favorite characters will look lovely here.</p>
+        <small>The gallery is waiting for its first picture.</small>
+    </div>
+</div>
+  <p class="eyebrow">A COLLECTION OF LITTLE LOVES</p>
+  <h2>Your <em>favorites</em></h2>
+  <p>A little collection of characters and things you love, gathered just for you.</p>
+</div>
+
+<div class="gallery-tools">
+  <span id="imageCount" class="muted">Your gallery is waiting</span>
+</div>
+      </section>
+
+      <section id="letter" class="letter-section section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">A NOTE, SEALED WITH CARE</p>
+          <h2>Something <em>for you</em></h2>
+          <p>There are a few words waiting inside.</p>
+        </div>
+        <button id="envelopeButton" class="envelope-button" type="button" aria-label="Open your birthday letter">
+          <div class="envelope" id="envelope">
+            <div class="envelope-back"></div>
+            <div class="letter-paper"><span>To Gavriella</span><i>with love ♡</i></div>
+            <div class="envelope-flap"></div>
+            <div class="wax-seal">G</div>
+          </div>
+          <span class="open-hint">CLICK TO OPEN YOUR LETTER</span>
+        </button>
+        <article id="letterContent" class="letter-content" aria-live="polite">
+          <p class="letter-date">13 NOVEMBER 2026</p>
+          <h3>Dear Gavriella,</h3>
+          <p>Happy birthday bayi HAHAHA, wishing you all the best!</p>
+          <p>I hope this new year gives you countless reasons to smile, lovely surprises, exciting little adventures, and the courage to chase everything that makes your heart happy. I also wanted to say thank you for everything you've done and given for me this past few years, i'm grateful, really loll</p>
+          <p>Thank you for being you, I’m reallyreallyreallyyyy glad to have you as my friend! May this next chapter be one of your loveliest yet~~ yareu</p>
+          <p class="letter-signoff">With lots of love,<br><em>anna lucu imut menggemaskan pacar casper ♡</em></p>
+          <p class="letter-edit-note">P.S. I have to suffer 3 days of hunting kinich pictures for YOU</code>.</p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <span>MADE ESPECIALLY FOR GAVRIELLA</span>
+        <span>✧ &nbsp; 13.11.2026 &nbsp; ✧</span>
+      </footer>
+    </section>
+  </main>
+
+  <audio id="birthdayAudio" loop preload="auto">
+    <source src="music/dayandnight.mp3" type="audio/mpeg">
+</audio>
+  <!-- Supabase connection -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<!-- Website JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
